@@ -42,17 +42,17 @@ public class CallDriverActivity extends AppCompatActivity {
         tvRate = findViewById(R.id.tvRate);
         btnCallDriver = findViewById(R.id.btnCallDriver);
 
-        if(getIntent()!=null){
+        if (getIntent()!=null) {
             driverID=getIntent().getStringExtra("driverID");
             double lat=getIntent().getDoubleExtra("lat", 0.0);
             double lng=getIntent().getDoubleExtra("lng", 0.0);
             lastLocation=new LatLng(lat, lng);
             loadDriverInfo(driverID);
-        }else finish();
+        } else finish();
         btnCallDriver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(driverID!=null && !driverID.isEmpty())
+                if (driverID!=null && !driverID.isEmpty())
                     Common.sendRequestToDriver(Common.driverID, mService, getApplicationContext(),
                             new LatLng(lastLocation.latitude, lastLocation.longitude));
             }
