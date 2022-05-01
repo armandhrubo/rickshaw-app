@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119645662359",
+    "project_id": "rickshaw-caller",
+    "storage_bucket": "rickshaw-caller.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119645662359:android:1f71d6c2d46c20a40bcdd2",
+        "android_client_info": {
+          "package_name": "com.rickshawpuller.r.driverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119645662359-1nhipi0vsgc58hg31p6u7sclbidh2do2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkTM-lpTEJfBEMtt3FG6wpqdgAEfSfcaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119645662359-1nhipi0vsgc58hg31p6u7sclbidh2do2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
